@@ -1,0 +1,11 @@
+name: what_time_is_it
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: ''
+      - run: "echo"
+      - run: "du -skin --exclude=.git"
