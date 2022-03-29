@@ -1,0 +1,14 @@
+*.o
+*.gch
+*.a
+*.so
+*~
+\#*
+*.do
+include
+unit_tests*
+*.gcno
+*.gcda
+a.out
+.vscode
+vgcore*
